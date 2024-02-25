@@ -1,30 +1,141 @@
-h1 {
-    text-align: center;
+
+h1, h2, h3 {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px; /* Add padding to create space around the text */
+    display: block; /* Make the background wrap around the text */
+    margin: 0;
 }
 
-.header-bg {
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 7em;
+    color: rgb(2, 1, 1);
+    font-weight: bold;
+    margin-top: 50vh;
+    margin-left: 3vw;
+    line-height: 1em;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    color:rgb(0, 0, 0);
+    font-weight: lighter;
+    margin-left: 3vw;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color:#96150c;
+    font-weight: lighter;
+    margin-left: 3vw;
+}
+
+.inner-header {
+    height: 100vh;
+    width:100%;
+    /* background-size: cover; */
     background-image: url('background.jpg'); 
-    background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    display: flex; 
 }
 
-body {
+main {
+    padding: 20px;
+    height: 2000px; /* Example height for scrolling effect */
+}
+
+
+.parallax-section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#one {
+    background-image: url('pg2.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#two {
+    background-image: url('pg3.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#three {
+    background-image: url('pg4.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#four {
+    background-image: url('pg5.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#five {
+    background-image: url('pg6.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#six {
+    background-image: url('pg7.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#seven {
+    background-image: url('pg8.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#eight {
+    background-image: url('pg9.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#nine {
+    background-image: url('pg11.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.parallax-text{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 8px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid; 
+}
+
+/* body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f0f0f0;
 }
 
-.header-content {
-    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent overlay to improve text visibility */
-    padding: 20px;
-}
 
 main {
     padding: 20px;
@@ -58,116 +169,5 @@ img {
     height: auto;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
 
-/* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.caption-container {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 2px 16px;
-    color: white;
-}
-
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Slideshow Carousel</title>
-<style>
-    .slideshow-container {
-        position: relative;
-        max-width: 800px;
-        margin: auto;
-    }
-
-    .mySlides {
-        display: none;
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-    }
-
-    /* Next & previous buttons */
-    .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        padding: 16px;
-        margin-top: -22px;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-    }
-
-    /* Position the "next button" to the right */
-    .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-    }
-
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-    }
-
-    /* Caption text */
-    .caption-container {
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.8);
-        padding: 2px 16px;
-        color: white;
-    }
-
-    .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-    }
 
