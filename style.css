@@ -215,40 +215,51 @@
     }
     
     #textseven{
-        max-width: 25ch;
+        max-width: 30ch;
         position: absolute;
         top: 300px; /* Adjust as needed */
         right: 1250px; /* Adjust as needed */
         z-index: 1;
         padding: 10px;
+        border-color: transparent;
+        background-color: transparent;
+        color: rgba(251, 251, 243, 0.9);
     
     }
     
     #texteight{
-        max-width: 25ch;
+        max-width: 30ch;
         position: absolute;
         top: 300px; /* Adjust as needed */
         right: 900px; /* Adjust as needed */
         z-index: 1;
         padding: 10px;
+        border-color: transparent;
+        background-color: transparent;
+        color: rgba(251, 251, 243, 0.9);
     }
     
     #textnine{
-        max-width: 25ch;
+        max-width: 30ch;
         position: absolute;
         top: 300px; /* Adjust as needed */
         right: 550px; /* Adjust as needed */
         z-index: 1;
         padding: 10px;
+        border-color: transparent;
+        background-color: transparent;
+        color: rgba(251, 251, 243, 0.9);
     }
     
     #textten{
-        max-width:25ch;
+        max-width:30ch;
         position: absolute;
         top: 300px; /* Adjust as needed */
-        right: 200px; /* Adjust as needed */
-        z-index: 1;
-        padding: 10px;
+        right: 210px;; /* Adjust as needed */
+        z-index: 3;
+        border-color: transparent;
+        background-color: transparent;
+        color: rgba(251, 251, 243, 0.9);
     }
     
     #text11{
@@ -289,39 +300,47 @@
     
     
     #text15{
-        max-width:30ch;
+        max-width:40ch;
         position: absolute;
         top: 650px; /* Adjust as needed */
-        right: 1250px; /* Adjust as needed */
+        right: 1200px; /* Adjust as needed */
         z-index: 3;
-        background-color: rgba(251, 251, 243, 0.9);
+        border-color: transparent;
+        background-color: transparent;
+        color: rgba(251, 251, 243, 0.9);
     }
     
     #text16{
-        max-width:30ch;
+        max-width:40ch;
         position: absolute;
         top: 650px; /* Adjust as needed */
-        right: 900px; /* Adjust as needed */
+        right: 825px; /* Adjust as needed */
         z-index: 3;
-        background-color: rgba(251, 251, 243, 0.9);
+        border-color: transparent;
+        background-color: transparent;
+        color: rgba(251, 251, 243, 0.9);
     }
     
     #text17{
-        max-width:30ch;
+        max-width:40ch;
         position: absolute;
         top: 650px; /* Adjust as needed */
-        right: 550px; /* Adjust as needed */
+        right: 475px; /* Adjust as needed */
         z-index: 3;
-        background-color: rgba(251, 251, 243, 0.9);
+        border-color: transparent;
+        background-color: transparent;
+        color: rgba(251, 251, 243, 0.9);
     }
     
     #text18{
-        max-width:30ch;
+        max-width:40ch;
         position: absolute;
         top: 650px; /* Adjust as needed */
-        right: 200px;; /* Adjust as needed */
+        right: 100px;; /* Adjust as needed */
         z-index: 3;
-        background-color: rgba(251, 251, 243, 0.9);
+        border-color: transparent;
+        background-color: transparent;
+        color: rgba(251, 251, 243, 0.9);
     }
     
     #text19{
@@ -374,43 +393,55 @@
         position: absolute;
         width:220px;
         height: 220px;
-        top: 600px; /* Adjust as needed */
-        right: 1250px; /* Adjust as needed */
-        z-index: 3
+        top: 550px; /* Adjust as needed */
+        right: 1270px; /* Adjust as needed */
+        z-index: 3;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
     }
     
     #box2 {
         position: absolute;
         width:220px;
         height: 220px;
-        top: 600px; /* Adjust as needed */
-        right: 900px; /* Adjust as needed */
-        z-index: 3
+        top: 550px; 
+        right: 925px; /* Adjust as needed */
+        z-index: 3;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
         
     }
     
     #box3 {
         position: absolute;
-        top: 600px; /* Adjust as needed */
-        right: 550px; /* Adjust as needed */
+        top: 550px; /* Adjust as needed */
+        right: 575px;
         width:220px;
         height: 220px;
-        z-index: 3
+        z-index: 3;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
     }
     
     #box4 {
         position: absolute;
-        top: 600px;
-        right: 200px;
+        top: 550px; 
+        right: 230px;
         width:220px;
         height: 220px;
-        z-index: 3
+        z-index: 3;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
     }
     
     #box5 {
         position: absolute;
         top: 325px;
-        right: 885px;
+        right: 880px;
         width:60px;
         height: 60px;
         z-index: 3
@@ -523,7 +554,7 @@
         padding: 10px; /* Decrease padding */
     }
 
-    .color-box, .color-box2, #box5{
+    .color-box, .color-box2, #box5, #rating{
         visibility: hidden;
     }
     /* Adjust positioning of elements */
@@ -551,10 +582,7 @@
         top: 50px;
         right: 0px;
     }
-    #rating{
-        top: 245px;
-        right: 0px;
-    }
+
     #textsix{
         top: 370px;
         right: 0px;
@@ -563,22 +591,54 @@
     #textseven{
         top: 0px;
         right: 175px;
-        max-width: 28ch;
+        max-width: 25ch;
+        color: rgba(199, 76, 39, 1);
+        background-color: rgba(251, 251, 243, 0.9);
+        padding: 5px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid; 
+        width: 100%;
+        box-sizing: border-box;
     }
     #texteight{
         top: 210px;
         right: 175px;
-        max-width: 28ch;
+        max-width: 25ch;
+        color: rgba(199, 76, 39, 1);
+        background-color: rgba(251, 251, 243, 0.9);
+        padding: 5px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid; 
+        width: 100%;
+        box-sizing: border-box;
     }
     #textnine{
         top: 355px;
         right: 175px;
-        max-width: 28ch;
+        max-width: 25ch;
+        color: rgba(199, 76, 39, 1);
+        background-color: rgba(251, 251, 243, 0.9);
+        padding: 5px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid; 
+        width: 100%;
+        box-sizing: border-box;
     }
     #textten{
         top: 540px;
         right: 175px;
-        max-width: 28ch;
+        max-width: 25ch;
+        color: rgba(199, 76, 39, 1);
+        background-color: rgba(251, 251, 243, 0.9);
+        padding: 5px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid; 
+        width: 100%;
+        box-sizing: border-box;
     }
     #text11, #text12, #text13, #text14{
         left:0
@@ -590,10 +650,10 @@
         top: 125px;
     }
     #text13{
-        top: 350px;
+        top: 360px;
     }
     #text14{
-        top: 475px;
+        top: 480px;
     }
 
 
@@ -616,18 +676,50 @@
     #text15{
         top: 0px;
         left: 110px;
+        color: rgba(199, 76, 39, 1);
+        background-color: rgba(251, 251, 243, 0.9);
+        padding: 5px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid; 
+        width: 100%;
+        box-sizing: border-box;
     }
     #text16{
         top: 215px;
         left: 110px;
+        color: rgba(199, 76, 39, 1);
+        background-color: rgba(251, 251, 243, 0.9);
+        padding: 5px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid; 
+        width: 100%;
+        box-sizing: border-box;
     }
     #text17{
         top: 310px;
         left: 110px;
+        color: rgba(199, 76, 39, 1);
+        background-color: rgba(251, 251, 243, 0.9);
+        padding: 5px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid; 
+        width: 100%;
+        box-sizing: border-box;
     }
     #text18{
         top: 425px;
         left: 110px;
+        color: rgba(199, 76, 39, 1);
+        background-color: rgba(251, 251, 243, 0.9);
+        padding: 5px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid; 
+        width: 100%;
+        box-sizing: border-box;
     }
     #text19, #text20, #text21, #text22{
         left: 5px
