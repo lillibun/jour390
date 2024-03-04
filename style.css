@@ -182,7 +182,7 @@
         z-index: 1;
         background-color: rgba(251, 251, 243, 0.9); /* Optional: Add a semi-transparent background */
         padding: 10px; /* Optional: Add padding for better readability */
-    }
+}
     
     
     #textfour{
@@ -212,7 +212,7 @@
         right: 80px; /* Adjust as needed */
         z-index: 1;
         background-color: rgba(251, 251, 243, 0.9); /* Optional: Add a semi-transparent background */
-        padding: 50px; /* Optional: Add padding for better readability */
+        padding: 60px; /* Optional: Add padding for better readability */
     }
     
     #textseven{
@@ -452,11 +452,11 @@
         height: 0;
         border-left: 10px solid transparent; /* Adjust thickness */
         border-right: 10px solid transparent; /* Adjust thickness */
-        border-top: 500px solid rgba(199, 76, 39, 1); /* Adjust height and color */
+        border-top: 545px solid rgba(199, 76, 39, 1); /* Adjust height and color */
         position: absolute;
-        top: 290px; /* Adjust top position */
+        top: 286px; /* Adjust top position */
         left: 575px; /* Adjust left position */
-        z-index: 3; /* Ensure it's above other elements */
+        z-index: 4; /* Ensure it's above other elements */
         transform: rotate(-45deg); /* Rotate the triangle */
     }
     #triangle2 {
@@ -466,7 +466,7 @@
         border-right: 10px solid transparent; /* Adjust thickness */
         border-top: 250px solid rgba(199, 76, 39, 1); /* Adjust height and color */
         position: absolute;
-        top: 250px; /* Adjust top position */
+        top: 256px; /* Adjust top position */
         left: 500px; /* Adjust left position */
         z-index: 3; /* Ensure it's above other elements */
         transform: rotate(-45deg); /* Rotate the triangle */
@@ -478,7 +478,7 @@
         border-right: 10px solid transparent; /* Adjust thickness */
         border-top: 200px solid rgba(199, 76, 39, 1); /* Adjust height and color */
         position: absolute;
-        top: 155px; /* Adjust top position */
+        top: 163px; /* Adjust top position */
         left: 875px; /* Adjust left position */
         z-index: 3; /* Ensure it's above other elements */
         transform: rotate(-315deg)
