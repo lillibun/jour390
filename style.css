@@ -315,7 +315,7 @@
         max-width:40ch;
         position: absolute;
         top: 650px; /* Adjust as needed */
-        right: 825px; /* Adjust as needed */
+        right: 835px; /* Adjust as needed */
         z-index: 3;
         border-color: transparent;
         background-color: transparent;
@@ -326,7 +326,7 @@
         max-width:40ch;
         position: absolute;
         top: 650px; /* Adjust as needed */
-        right: 475px; /* Adjust as needed */
+        right: 470px; /* Adjust as needed */
         z-index: 3;
         border-color: transparent;
         background-color: transparent;
@@ -356,7 +356,7 @@
     #text20{
         max-width:50ch;
         position: absolute;
-        top: 250px; /* Adjust as needed */
+        top: 240px; /* Adjust as needed */
         left: 100px; /* Adjust as needed */
         z-index: 3;
         background-color: rgba(251, 251, 243, 0.9);
@@ -365,7 +365,7 @@
     #text21{
         max-width:50ch;
         position: absolute;
-        top: 410px; /* Adjust as needed */
+        top: 405px; /* Adjust as needed */
         left: 100px; /* Adjust as needed */
         z-index: 3;
         background-color: rgba(251, 251, 243, 0.9);
@@ -442,7 +442,7 @@
     #box5 {
         position: absolute;
         top: 325px;
-        right: 880px;
+        right: 885px;
         width:60px;
         height: 60px;
         z-index: 3
@@ -568,12 +568,12 @@
     }
     /* Update other text elements similarly */
     #texttwo {
-        top: 300px;
+        top: 50px;
         left: 0px;
     }
 
     #textthree{
-        top: 425px;
+        top: 150px;
         left: 0px;
     }
     #textfour{
