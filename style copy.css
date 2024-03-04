@@ -1,0 +1,478 @@
+/* all header and font stuff for the title page
+
+    colors from felipe:
+    red : rgb 199 76 39
+    off-white : 251 251 243 */
+
+/* font and header stuff*/
+h1, h2, h3 {
+    background-color: rgba(251, 251, 243, 0.9);
+    padding: 10px 20px; 
+    display: block; 
+    margin: 0;
+} 
+
+h1 {
+    font-family: "oscine", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 7em;
+    color: rgb(2, 1, 1);
+    margin-top: 50vh;
+    margin-left: 3vw;
+    line-height: 1em;
+}
+
+h2 {
+    font-family: "oscine", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    color:rgb(0, 0, 0);
+    margin-left: 3vw;
+}
+
+h3 {
+    font-family: "oscine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    color: rgba(199, 76, 39, 1);
+    margin-left: 3vw;
+} 
+
+p {
+    font-family: 'oscine';
+    font-weight: 300;
+    font-style: normal;
+    color: rgba(199, 76, 39, 1);
+    background-color: rgba(251, 251, 243, 0.9);
+    text-align: center;
+    padding: 15px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+b{
+    font-family: "oscine", sans-serif;
+    font-weight: 800;
+    font-style: normal; 
+}
+
+
+/* */
+.begin-page{
+    position: relative;
+}
+
+
+.background{
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex; 
+}
+
+
+.quote-box {
+    background-color: rgba(251, 251, 243, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    max-width: 80%; /* Maximum width of the quote box */
+  }
+  
+  .quote-triangle  {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 30px 0 20px; /* Adjust triangle size */
+    border-color: rgba(251, 251, 243, 0.9) transparent transparent transparent; /* Match background-color of quote-box */
+    position: absolute;
+    bottom: 10px;
+    left: 30px; /* Adjust position of triangle */
+    transform: rotate(45deg); /* Rotate the triangle slightly to the right */
+  }
+/* .quote-box{ 
+    background-color: rgba(190, 61, 61, 0.95);
+    width: 500px;
+    height: 75px;
+}
+
+.quote-text {    
+    background-color: rgba(190, 61, 61, 0.95);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding: 23px;
+    border-width: 2px;
+    border-color: rgba(30, 12, 12, 0.95);;
+    border-style: solid; 
+    width: 100%;
+    box-sizing: border-box;
+} */
+
+.image-container {
+    position: relative; /* Ensure relative positioning for the container */
+}
+.background2{
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex; 
+    /* position: absolute */
+}
+
+#rating {
+    position: absolute;
+    top: 385px;
+    right: 80px;
+    width: 430px;
+    height: 125px;
+    z-index: 2; 
+    border: black;
+    border-style: solid;
+}
+.color-box {
+    position: absolute;
+    background-color: rgba(190, 61, 61, 0.95);
+    width: 100%;
+    height: 600px;
+    top: 250px;
+    left: 0px;
+    z-index: 1;
+}
+
+.color-box2 {
+    position: absolute;
+    background-color: rgba(190, 61, 61, 0.95);
+    width: 100%;
+    height: 300px;
+    top: 625px;
+    left: 0px;
+    z-index: 1;
+}
+.header {
+    height: 100vh;
+    width:100%;
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex; 
+}
+#textone{
+    max-width: 100ch;
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    left: 50px; /* Adjust as needed */
+    z-index: 1;
+    background-color: rgba(251, 251, 243, 0.9); /* Optional: Add a semi-transparent background */
+    padding: 10px; /* Optional: Add padding for better readability */
+}
+
+#texttwo{
+    max-width: 100ch;
+    position: absolute;
+    top: 600px; /* Adjust as needed */
+    left: 400px; /* Adjust as needed */
+    z-index: 1;
+    background-color: rgba(251, 251, 243, 0.9); /* Optional: Add a semi-transparent background */
+    padding: 10px; /* Optional: Add padding for better readability */
+}
+
+#textthree{
+    max-width: 100ch;
+    position: absolute;
+    top: 690px; /* Adjust as needed */
+    left: 400px; /* Adjust as needed */
+    z-index: 1;
+    background-color: rgba(251, 251, 243, 0.9); /* Optional: Add a semi-transparent background */
+    padding: 10px; /* Optional: Add padding for better readability */
+}
+
+
+#textfour{
+    max-width: 50ch;
+    position: absolute;
+    top: 250px; /* Adjust as needed */
+    left: 75px; /* Adjust as needed */
+    z-index: 1;
+    background-color: rgba(251, 251, 243, 0.9); /* Optional: Add a semi-transparent background */
+    padding: 50px; /* Optional: Add padding for better readability */
+}
+
+#textfive{
+    max-width: 50ch;
+    position: absolute;
+    top: 200px; /* Adjust as needed */
+    right: 80px; /* Adjust as needed */
+    z-index: 1;
+    background-color: rgba(251, 251, 243, 0.9); /* Optional: Add a semi-transparent background */
+    padding: 50px; /* Optional: Add padding for better readability */
+}
+
+#textsix{
+    max-width: 50ch;
+    position: absolute;
+    top: 500px; /* Adjust as needed */
+    right: 80px; /* Adjust as needed */
+    z-index: 1;
+    background-color: rgba(251, 251, 243, 0.9); /* Optional: Add a semi-transparent background */
+    padding: 50px; /* Optional: Add padding for better readability */
+}
+
+#textseven{
+    max-width: 25ch;
+    position: absolute;
+    top: 300px; /* Adjust as needed */
+    left: 0px; /* Adjust as needed */
+    z-index: 1;
+    
+
+}
+
+#texteight{
+    max-width: 25ch;
+    position: absolute;
+    top: 300px; /* Adjust as needed */
+    left: 225px; /* Adjust as needed */
+    z-index: 1;
+}
+
+#textnine{
+    max-width: 25ch;
+    position: absolute;
+    top: 300px; /* Adjust as needed */
+    left: 450px; /* Adjust as needed */
+    z-index: 1;
+}
+
+#textten{
+    max-width:25ch;
+    position: absolute;
+    top: 300px; /* Adjust as needed */
+    left: 675px; /* Adjust as needed */
+    z-index: 1;
+}
+
+#text11{
+    max-width:50ch;
+    position: absolute;
+    top: 100px; /* Adjust as needed */
+    left: 50px; /* Adjust as needed */
+    z-index: 1;
+    background-color: rgba(251, 251, 243, 0.9);
+}
+
+#text12{
+    max-width:50ch;
+    position: absolute;
+    top: 225px; /* Adjust as needed */
+    left: 50px; /* Adjust as needed */
+    z-index: 1;
+    background-color: rgba(251, 251, 243, 0.9);
+}
+
+#text13{
+    max-width:50ch;
+    position: absolute;
+    top: 450px; /* Adjust as needed */
+    left: 50px; /* Adjust as needed */
+    z-index: 1;
+    background-color: rgba(251, 251, 243, 0.9);
+}
+
+#text14{
+    max-width:50ch;
+    position: absolute;
+    top: 575px; /* Adjust as needed */
+    left: 50px; /* Adjust as needed */
+    z-index: 1;
+    background-color: rgba(251, 251, 243, 0.9);
+}
+
+
+#text15{
+    max-width:30ch;
+    position: absolute;
+    top: 650px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    z-index: 3;
+    background-color: rgba(251, 251, 243, 0.9);
+}
+
+#text16{
+    max-width:30ch;
+    position: absolute;
+    top: 650px; /* Adjust as needed */
+    left: 275px; /* Adjust as needed */
+    z-index: 3;
+    background-color: rgba(251, 251, 243, 0.9);
+}
+
+#text17{
+    max-width:30ch;
+    position: absolute;
+    top: 650px; /* Adjust as needed */
+    left: 540px; /* Adjust as needed */
+    z-index: 3;
+    background-color: rgba(251, 251, 243, 0.9);
+}
+
+#text18{
+    max-width:30ch;
+    position: absolute;
+    top: 650px; /* Adjust as needed */
+    left: 805px; /* Adjust as needed */
+    z-index: 3;
+    background-color: rgba(251, 251, 243, 0.9);
+}
+
+#text19{
+    max-width:50ch;
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    left: 100px; /* Adjust as needed */
+    z-index: 3;
+    background-color: rgba(251, 251, 243, 0.9);
+}
+
+#text20{
+    max-width:50ch;
+    position: absolute;
+    top: 250px; /* Adjust as needed */
+    left: 100px; /* Adjust as needed */
+    z-index: 3;
+    background-color: rgba(251, 251, 243, 0.9);
+}
+
+#text21{
+    max-width:50ch;
+    position: absolute;
+    top: 410px; /* Adjust as needed */
+    left: 100px; /* Adjust as needed */
+    z-index: 3;
+    background-color: rgba(251, 251, 243, 0.9);
+}
+
+#text22{
+    max-width:50ch;
+    position: absolute;
+    top: 590px; /* Adjust as needed */
+    left: 100px; /* Adjust as needed */
+    z-index: 3;
+    background-color: rgba(251, 251, 243, 0.9);
+}
+
+#text23{
+    max-width:150ch;
+    position: absolute;
+    top: 300px; /* Adjust as needed */
+    left: 100px; /* Adjust as needed */
+    z-index: 3;
+    color:rgba(251, 251, 243, 1);
+    background-color: rgba(199, 76, 39, 1);
+}
+
+#box1 { 
+    position: absolute;
+    width:220px;
+    height: 220px;
+    top: 600px; /* Adjust as needed */
+    left: 0px; /* Adjust as needed */
+    z-index: 3
+}
+
+#box2 {
+    position: absolute;
+    width:220px;
+    height: 220px;
+    top: 600px; /* Adjust as needed */
+    left: 225px; /* Adjust as needed */
+    z-index: 3
+    
+}
+
+#box3 {
+    position: absolute;
+    top: 600px; /* Adjust as needed */
+    left: 450px; /* Adjust as needed */
+    width:220px;
+    height: 220px;
+    z-index: 3
+}
+
+#box4 {
+    position: absolute;
+    top: 600px;
+    left: 675px;
+    width:220px;
+    height: 220px;
+    z-index: 3
+}
+
+#box5 {
+    position: absolute;
+    top: 325px;
+    left: 320px;
+    width:60px;
+    height: 60px;
+    z-index: 3
+}
+/* .paragraph {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 15px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid; 
+    width: 100%;
+    box-sizing: border-box;
+} */
+/* .parallax-section {
+    /* height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden; */
+
+
+/* .parallax-content {
+    /* position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    background-repeat: no-repeat; */
+
+/* .parallax-text{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid; 
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+#one .parallax-content{
+    top: 20%;
+}
+
+#two .parallax-content{
+    bottom: 10%;
+}
+
+   */
+  
