@@ -1,4 +1,4 @@
-
+/* text thingss */
     h1, h2, h3 {
         background-color: rgba(251, 251, 243, 0.9);
         padding: 10px 20px; 
@@ -81,31 +81,6 @@
     }
     
     
-    .quote-box {
-        background-color: rgba(251, 251, 243, 0.9); /* Semi-transparent white background */
-        padding: 20px;
-        border-radius: 5px;
-        position: absolute;
-        bottom: 20px;
-        left: 20px;
-        max-width: 80%; /* Maximum width of the quote box */
-      }
-      
-      .quote-triangle  {
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 100px 30px 0 20px; /* Adjust triangle size */
-        border-color: rgba(251, 251, 243, 0.9) transparent transparent transparent; /* Match background-color of quote-box */
-        position: absolute;
-        bottom: 10px;
-        left: 30px; /* Adjust position of triangle */
-        transform: rotate(45deg); /* Rotate the triangle slightly to the right */
-      }
-    
-    .image-container {
-        position: relative; /* Ensure relative positioning for the container */
-    }
     .background2{
         height: 100vh;
         width:100%;
@@ -113,8 +88,7 @@
         background-position: center;
         background-repeat: no-repeat;
         display: flex; 
-        /* position: absolute */
-    }
+        }
     
     #rating {
         position: absolute;
@@ -157,69 +131,68 @@
     #textone{
         max-width: 100ch;
         position: absolute;
-        top: 50px; /* Adjust as needed */
-        left: 50px; /* Adjust as needed */
+        top: 50px;
+        left: 50px; 
         z-index: 1;
-        background-color: rgba(251, 251, 243, 0.9); /* Optional: Add a semi-transparent background */
-        padding: 10px; /* Optional: Add padding for better readability */
+        background-color: rgba(251, 251, 243, 0.9); 
+        padding: 10px;
     }
     
     #texttwo{
         max-width: 100ch;
         position: absolute;
-        top: 600px; /* Adjust as needed */
-        left: 400px; /* Adjust as needed */
+        top: 600px; 
+        left: 400px; 
         z-index: 1;
-        background-color: rgba(251, 251, 243, 0.9); /* Optional: Add a semi-transparent background */
-        padding: 10px; /* Optional: Add padding for better readability */
+        background-color: rgba(251, 251, 243, 0.9); 
+        padding: 10px;
     }
     
     #textthree{
         max-width: 100ch;
         position: absolute;
-        top: 700px; /* Adjust as needed */
-        left: 400px; /* Adjust as needed */
+        left: 400px; 
         z-index: 1;
-        background-color: rgba(251, 251, 243, 0.9); /* Optional: Add a semi-transparent background */
-        padding: 10px; /* Optional: Add padding for better readability */
+        background-color: rgba(251, 251, 243, 0.9); 
+        padding: 10px; 
 }
     
     
     #textfour{
         max-width: 50ch;
         position: absolute;
-        top: 200px; /* Adjust as needed */
-        left: 350px; /* Adjust as needed */
+        top: 200px; 
+        left: 350px; 
         z-index: 1;
-        background-color: rgba(251, 251, 243, 0.9); /* Optional: Add a semi-transparent background */
-        padding: 50px; /* Optional: Add padding for better readability */
+        background-color: rgba(251, 251, 243, 0.9); 
+        padding: 50px; 
     }
     
     #textfive{
         max-width: 50ch;
         position: absolute;
-        top: 200px; /* Adjust as needed */
-        right: 80px; /* Adjust as needed */
+        top: 200px; 
+        right: 80px; 
         z-index: 1;
-        background-color: rgba(251, 251, 243, 0.9); /* Optional: Add a semi-transparent background */
-        padding: 50px; /* Optional: Add padding for better readability */
+        background-color: rgba(251, 251, 243, 0.9); 
+        padding: 50px; 
     }
     
     #textsix{
         max-width: 50ch;
         position: absolute;
-        top: 500px; /* Adjust as needed */
-        right: 80px; /* Adjust as needed */
+        top: 500px; 
+        right: 80px; 
         z-index: 1;
-        background-color: rgba(251, 251, 243, 0.9); /* Optional: Add a semi-transparent background */
-        padding: 60px; /* Optional: Add padding for better readability */
+        background-color: rgba(251, 251, 243, 0.9); 
+        padding: 60px; 
     }
     
     #textseven{
         max-width: 30ch;
         position: absolute;
-        top: 250px; /* Adjust as needed */
-        right: 1250px; /* Adjust as needed */
+        top: 250px; 
+        right: 1250px; 
         z-index: 1;
         padding: 10px;
         border-color: transparent;
@@ -231,8 +204,8 @@
     #texteight{
         max-width: 30ch;
         position: absolute;
-        top: 250px; /* Adjust as needed */
-        right: 875px; /* Adjust as needed */
+        top: 250px; 
+        right: 875px; 
         z-index: 1;
         padding: 10px;
         border-color: transparent;
@@ -243,8 +216,8 @@
     #textnine{
         max-width: 30ch;
         position: absolute;
-        top: 250px; /* Adjust as needed */
-        right: 500px; /* Adjust as needed */
+        top: 250px; 
+        right: 500px;
         z-index: 1;
         padding: 10px;
         border-color: transparent;
@@ -255,8 +228,8 @@
     #textten{
         max-width:30ch;
         position: absolute;
-        top: 250px; /* Adjust as needed */
-        right: 130px;; /* Adjust as needed */
+        top: 250px;
+        right: 130px;; 
         z-index: 3;
         border-color: transparent;
         background-color: transparent;
@@ -266,8 +239,8 @@
     #text11{
         max-width:50ch;
         position: absolute;
-        top: 100px; /* Adjust as needed */
-        left: 50px; /* Adjust as needed */
+        top: 100px; 
+        left: 50px;
         z-index: 1;
         background-color: rgba(251, 251, 243, 0.9);
     }
@@ -275,8 +248,8 @@
     #text12{
         max-width:50ch;
         position: absolute;
-        top: 230px; /* Adjust as needed */
-        left: 50px; /* Adjust as needed */
+        top: 230px; 
+        left: 50px; 
         z-index: 1;
         background-color: rgba(251, 251, 243, 0.9);
     }
@@ -284,8 +257,8 @@
     #text13{
         max-width:50ch;
         position: absolute;
-        top: 480px; /* Adjust as needed */
-        left: 50px; /* Adjust as needed */
+        top: 480px; 
+        left: 50px; 
         z-index: 1;
         background-color: rgba(251, 251, 243, 0.9);
     }
@@ -293,8 +266,8 @@
     #text14{
         max-width:50ch;
         position: absolute;
-        top: 610px; /* Adjust as needed */
-        left: 50px; /* Adjust as needed */
+        top: 610px; 
+        left: 50px; 
         z-index: 1;
         background-color: rgba(251, 251, 243, 0.9);
     }
@@ -303,8 +276,8 @@
     #text15{
         max-width:40ch;
         position: absolute;
-        top: 650px; /* Adjust as needed */
-        right: 1200px; /* Adjust as needed */
+        top: 650px; 
+        right: 1200px; 
         z-index: 3;
         border-color: transparent;
         background-color: transparent;
@@ -314,8 +287,8 @@
     #text16{
         max-width:40ch;
         position: absolute;
-        top: 650px; /* Adjust as needed */
-        right: 835px; /* Adjust as needed */
+        top: 650px; 
+        right: 835px; 
         z-index: 3;
         border-color: transparent;
         background-color: transparent;
@@ -325,8 +298,8 @@
     #text17{
         max-width:40ch;
         position: absolute;
-        top: 650px; /* Adjust as needed */
-        right: 470px; /* Adjust as needed */
+        top: 650px; 
+        right: 470px; 
         z-index: 3;
         border-color: transparent;
         background-color: transparent;
@@ -336,8 +309,8 @@
     #text18{
         max-width:40ch;
         position: absolute;
-        top: 650px; /* Adjust as needed */
-        right: 100px;; /* Adjust as needed */
+        top: 650px; 
+        right: 100px;; 
         z-index: 3;
         border-color: transparent;
         background-color: transparent;
@@ -347,8 +320,8 @@
     #text19{
         max-width:50ch;
         position: absolute;
-        top: 50px; /* Adjust as needed */
-        left: 100px; /* Adjust as needed */
+        top: 50px; 
+        left: 100px; 
         z-index: 3;
         background-color: rgba(251, 251, 243, 0.9);
     }
@@ -356,8 +329,8 @@
     #text20{
         max-width:50ch;
         position: absolute;
-        top: 240px; /* Adjust as needed */
-        left: 100px; /* Adjust as needed */
+        top: 240px; 
+        left: 100px; 
         z-index: 3;
         background-color: rgba(251, 251, 243, 0.9);
     }
@@ -365,8 +338,8 @@
     #text21{
         max-width:50ch;
         position: absolute;
-        top: 405px; /* Adjust as needed */
-        left: 100px; /* Adjust as needed */
+        top: 405px; 
+        left: 100px; 
         z-index: 3;
         background-color: rgba(251, 251, 243, 0.9);
     }
@@ -374,8 +347,8 @@
     #text22{
         max-width:50ch;
         position: absolute;
-        top: 590px; /* Adjust as needed */
-        left: 100px; /* Adjust as needed */
+        top: 590px; 
+        left: 100px; 
         z-index: 3;
         background-color: rgba(251, 251, 243, 0.9);
     }
@@ -383,8 +356,8 @@
     #text23{
         max-width:150ch;
         position: absolute;
-        top: 300px; /* Adjust as needed */
-        left: 100px; /* Adjust as needed */
+        top: 300px; 
+        left: 100px; 
         z-index: 3;
         color:rgba(251, 251, 243, 1);
         background-color: rgba(199, 76, 39, 1);
@@ -394,8 +367,8 @@
         position: absolute;
         width:300px;
         height: 300px;
-        top: 500px; /* Adjust as needed */
-        right: 1250px; /* Adjust as needed */
+        top: 500px; 
+        right: 1250px; 
         z-index: 3;
         border-style: solid;
         border-color: black;
@@ -407,7 +380,7 @@
         width:300px;
         height: 300px;
         top: 500px; 
-        right: 870px; /* Adjust as needed */
+        right: 870px; 
         z-index: 3;
         border-style: solid;
         border-color: black;
@@ -417,7 +390,7 @@
     
     #box3 {
         position: absolute;
-        top: 500px; /* Adjust as needed */
+        top: 500px; 
         right: 490px;
         width:300px;
         height: 300px;
@@ -498,75 +471,72 @@
     #quote1{
     max-width: 50ch;
     position: absolute;
-    top: 100px; /* Adjust as needed */
-    left: 650px; /* Adjust as needed */
+    top: 100px; 
+    left: 650px; 
     z-index: 2;
     color: rgba(251, 251, 243, 0.9);
-    background-color: rgba(199, 76, 39, 1); /* Optional: Add a semi-transparent background */
-    padding: 20px; /* Optional: Add padding for better readability */
+    background-color: rgba(199, 76, 39, 1);
+    padding: 20px;
 }
     
     #quote2{
         max-width: 50ch;
         position: absolute;
-        top: 200px; /* Adjust as needed */
-        left: 200px; /* Adjust as needed */
+        top: 200px; 
+        left: 200px; 
         z-index: 2;
         color: rgba(251, 251, 243, 0.9);
-        background-color: rgba(199, 76, 39, 1); /* Optional: Add a semi-transparent background */
+        background-color: rgba(199, 76, 39, 1);
         padding: 20px;        
     }
     #quote3{
         max-width: 50ch;
         position: absolute;
-        top: 750px; /* Adjust as needed */
-        left: 500px; /* Adjust as needed */
+        top: 750px; 
+        left: 500px; 
         z-index: 2;
         color: rgba(251, 251, 243, 0.9);
-        background-color: rgba(199, 76, 39, 1); /* Optional: Add a semi-transparent background */
+        background-color: rgba(199, 76, 39, 1);
         padding: 20px;     
     }
 
 
-/* Media query for smaller devices (e.g., mobile phones) */
+/* Media query for smaller devices */
 @media only screen and (max-width: 1000px) {
-    /* Adjustments for smaller screens */
     #quote1, #quote2, #quote3, #triangle2, #triangle3, #triangle4{
         visibility: hidden;
     }
 
     /* Update header styles */
     h1 {
-        font-size: 3em; /* Decrease font size */
-        margin-top: 30vh; /* Adjust margin */
-        margin-left: 2vw; /* Adjust margin */
+        font-size: 3em; 
+        margin-top: 30vh; 
+        margin-left: 2vw; 
     }
     h2 {
-        font-size: 1.5em; /* Decrease font size */
-        margin-left: 2vw; /* Adjust margin */
+        font-size: 1.5em;
+        margin-left: 2vw; 
     }
     h3 {
-        font-size: 1em; /* Decrease font size */
-        margin-left: 2vw; /* Adjust margin */
+        font-size: 1em; 
+        margin-left: 2vw; 
     }
 
-    /* Update paragraph styles */
     p {
-        padding: 10px; /* Decrease padding */
+        padding: 10px; 
         font-size: 14px;
     }
 
-    .color-box, .color-box2, #box5, #rating{
+    .color-box, .color-box2, #box5, #rating, .triangle{
         visibility: hidden;
     }
-    /* Adjust positioning of elements */
-    /* Update positions of text elements */
+
     #textone {
-        top: 0px; /* Adjust position */
-        left: 0px; /* Adjust position */
+        top: 0px; 
+        left: 0px; 
         max-width: 600px;
     }
-    /* Update other text elements similarly */
+
     #texttwo {
         top: 50px;
         left: 0px;
@@ -745,13 +715,11 @@
     #text23{
         left: 0px;
     }
-    /* Adjust box sizes and positions */
+
     #box1, #box2, #box3, #box4, #box5 {
-        width: 125px; /* Decrease box size */
-        height: 125px; /* Decrease box size */
+        width: 125px; 
+        height: 125px; 
     }
-    .triangle {
-        visibility: hidden;
-    }
+
 
 }
