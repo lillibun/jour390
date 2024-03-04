@@ -35,9 +35,15 @@
     </div>
     <div class="begin-page">
         <div class="image-container">
-            <img class="background2" src="SF_Drawing3.png">
+            <img class="background2" src="SF_Drawing4.png">
             <img id="rating" src="rating.png">
         </div>
+        <div id = triangle2> </div>
+        <div id = triangle3> </div>
+        <div id = triangle4> </div>
+        <p id = "quote1"> “For the price point and the wait and the inconsistency of opening, it isn’t close to worth $3.75 each.” </p>
+        <p id = "quote2"> “It’s not that good for how much they charge. Long lines. Not worth it. They are famous for being famous.”</p>
+        <p id = "quote3">  “Maybe their crust stands out but it's definitely not worth the long wait and price. People love what's hard to get.” </p>
         <p id = "textfive">On Google Reviews, the bakery has racked up over <b>1,100 reviews</b> with an average rating of<b> 4.2 stars</b>.</p>
         <p id = "textsix"> While some reviews rave about the freshness, taste and texture of Golden Gate Bakery’s egg tarts, comments are also rife with complaints about the long lines, inconsistent hours and steep prices.  </p>
     </div>
@@ -78,7 +84,7 @@
         <p id = "text22">For Lee and Kwok, the bakery is more than just a place to buy egg tarts—it’s a representation of Chinatown’s resilience and a reminder of how nostalgic desserts from their childhood have continued to permeate San Francisco over the decades.  </p>
     </div>
     <div class="begin-page">
-        <img class="background" src="SF_Drawing.png">
+        <img class="background" src="https://media.githubusercontent.com/media/lillibun/jour390/main/SF_Drawing.png">>
         <div class = triangle></div>
         <p id = "text23">“It’s always been a popular bakery,” Lee said. “What they've done for Chinatown, I think it's really good because I would really hate to see Chinatown go away.”</p>
     </div>
@@ -92,198 +98,30 @@
     <script>
 
 
-        // let t1 = gsap.timeline({
-        //     scrollTrigger: {
-        //         trigger: ".parallax-text", 
-        //         start: 'top center',
-        //         end: "bottom center",
-        //         scrub: true,
-        //         markers: true
-        //     }
-        // })
+    gsap.registerPlugin(ScrollTrigger);
 
-        // t1.to('.parallax-text', {
-        //     x:100
-        // })
-        gsap.registerPlugin(ScrollTrigger);
+    const beginPages = document.querySelectorAll('.begin-page');
 
-        const beginPages = document.querySelectorAll('.begin-page');
+    beginPages.forEach((beginPage, index) => {
+        const background = beginPage.querySelector('.background');
 
-        beginPages.forEach((beginPage, index) => {
-            // const textContainer = beginPage.querySelector('.text-container');
-            const background = beginPage.querySelector('.background');
+        if (index < beginPages.length - 1) {
+            const nextBackground = beginPages[index + 1].querySelector('.background');
 
-            // gsap.from(textContainer, {
-            //     y: '100%',
-            //     duration: 0.8,
-            //     ease: 'power4.out',
-            //     scrollTrigger: {
-            //         trigger: beginPage,
-            //         start: 'top 80%',
-            //         end: 'bottom 20%',
-            //         scrub: 0.5,
-            //         markers: false,
-            //         toggleActions: 'play none none none'
-            //     }
-            // });
-
-            if (index < beginPages.length - 1) {
-                const nextBackground = beginPages[index + 1].querySelector('.background');
-
-                ScrollTrigger.create({
-                    trigger: beginPage,
-                    start: 'top top',
-                    end: 'bottom top',
-                    onUpdate: (self) => {
-                        const progress = self.progress;
-                        gsap.set(background, { opacity: 1 - progress });
-                        gsap.set(nextBackground, { opacity: progress });
-                    },
-                    markers: false,
-                    scrub: true
-                });
-            }
-        });
-
-        //testing 
-
-//         gsap.registerPlugin(ScrollTrigger);
-
-// const beginPages = document.querySelectorAll('.begin-page');
-
-// beginPages.forEach((beginPage, index) => {
-//     const textContainer = beginPage.querySelector('.text-container');
-//     const background = beginPage.querySelector('.background');
-
-//     gsap.from(textContainer, {
-//         y: '50%',
-//         opacity: 0,
-//         duration: 1.5,
-//         ease: 'power4.out',
-//         scrollTrigger: {
-//             trigger: textContainer,
-//             start: 'top 80%',
-//             end: 'top 30%',
-//             scrub: 0.5,
-//             markers: false,
-//             toggleActions: 'play none none none'
-//         }
-//     });
-
-//     gsap.from(textContainer.querySelectorAll('p'), {
-//         opacity: 0,
-//         y: 30,
-//         duration: 1,
-//         stagger: 0.2,
-//         ease: 'power2.out',
-//         scrollTrigger: {
-//             trigger: textContainer,
-//             start: 'top 90%',
-//             end: 'top 40%',
-//             scrub: 0.5,
-//             markers: false,
-//             toggleActions: 'play none none none'
-//         }
-//     });
-
-//     gsap.from(textContainer.querySelector('.image-container'), {
-//         opacity: 0,
-//         duration: 1,
-//         ease: 'power4.out',
-//         scrollTrigger: {
-//             trigger: textContainer,
-//             start: 'top 90%',
-//             end: 'top 40%',
-//             scrub: 0.5,
-//             markers: false,
-//             toggleActions: 'play none none none'
-//         }
-//     });
-
-//     gsap.from(textContainer.querySelector('.color-box'), {
-//         backgroundColor: 'rgba(255, 255, 255, 0)',
-//         duration: 1.5,
-//         ease: 'power4.out',
-//         scrollTrigger: {
-//             trigger: textContainer,
-//             start: 'top 90%',
-//             end: 'top 40%',
-//             scrub: 0.5,
-//             markers: false,
-//             toggleActions: 'play none none none'
-//         }
-//     });
-
-//     gsap.from(textContainer.querySelectorAll('img'), {
-//         opacity: 0,
-//         scale: 0.8,
-//         duration: 1,
-//         ease: 'back.out(1.7)',
-//         scrollTrigger: {
-//             trigger: textContainer,
-//             start: 'top 90%',
-//             end: 'top 40%',
-//             scrub: 0.5,
-//             markers: false,
-//             toggleActions: 'play none none none'
-//         }
-//     });
-
-//     gsap.from(textContainer.querySelector('.triangle'), {
-//         opacity: 0,
-//         rotate: -180,
-//         duration: 1.5,
-//         ease: 'power4.out',
-//         scrollTrigger: {
-//             trigger: textContainer,
-//             start: 'top 90%',
-//             end: 'top 40%',
-//             scrub: 0.5,
-//             markers: false,
-//             toggleActions: 'play none none none'
-//         }
-//     });
-
-//     gsap.from(textContainer.querySelector('.color-box2'), {
-//         backgroundColor: 'rgba(0, 0, 0, 0)',
-//         duration: 1.5,
-//         ease: 'power4.out',
-//         scrollTrigger: {
-//             trigger: textContainer,
-//             start: 'top 90%',
-//             end: 'top 40%',
-//             scrub: 0.5,
-//             markers: false,
-//             toggleActions: 'play none none none'
-//         }
-//     });
-
-//     if (index < beginPages.length - 1) {
-//         const nextBackground = beginPages[index + 1].querySelector('.background');
-
-//         ScrollTrigger.create({
-//             trigger: beginPage,
-//             start: 'top top',
-//             end: 'bottom top',
-//             onUpdate: (self) => {
-//                 const progress = self.progress;
-//                 gsap.set(background, { opacity: 1 - progress });
-//                 gsap.set(nextBackground, { opacity: progress });
-//             },
-//             markers: false,
-//             scrub: true
-//         });
-//     }
-// });
-
-
-
-
-
-
-
-
-
+            ScrollTrigger.create({
+                trigger: beginPage,
+                start: 'top top',
+                end: 'bottom top',
+                onUpdate: (self) => {
+                    const progress = self.progress;
+                    gsap.set(background, { opacity: 1 - progress });
+                    gsap.set(nextBackground, { opacity: progress });
+                },
+                markers: false,
+                scrub: true
+            });
+        }
+    });
 
 
         const lenis = new Lenis()
