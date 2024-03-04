@@ -218,7 +218,7 @@
     #textseven{
         max-width: 30ch;
         position: absolute;
-        top: 300px; /* Adjust as needed */
+        top: 250px; /* Adjust as needed */
         right: 1250px; /* Adjust as needed */
         z-index: 1;
         padding: 10px;
@@ -231,8 +231,8 @@
     #texteight{
         max-width: 30ch;
         position: absolute;
-        top: 300px; /* Adjust as needed */
-        right: 900px; /* Adjust as needed */
+        top: 250px; /* Adjust as needed */
+        right: 875px; /* Adjust as needed */
         z-index: 1;
         padding: 10px;
         border-color: transparent;
@@ -243,8 +243,8 @@
     #textnine{
         max-width: 30ch;
         position: absolute;
-        top: 300px; /* Adjust as needed */
-        right: 550px; /* Adjust as needed */
+        top: 250px; /* Adjust as needed */
+        right: 500px; /* Adjust as needed */
         z-index: 1;
         padding: 10px;
         border-color: transparent;
@@ -255,8 +255,8 @@
     #textten{
         max-width:30ch;
         position: absolute;
-        top: 300px; /* Adjust as needed */
-        right: 210px;; /* Adjust as needed */
+        top: 250px; /* Adjust as needed */
+        right: 130px;; /* Adjust as needed */
         z-index: 3;
         border-color: transparent;
         background-color: transparent;
@@ -392,10 +392,10 @@
     
     #box1 { 
         position: absolute;
-        width:220px;
-        height: 220px;
-        top: 550px; /* Adjust as needed */
-        right: 1280px; /* Adjust as needed */
+        width:300px;
+        height: 300px;
+        top: 500px; /* Adjust as needed */
+        right: 1250px; /* Adjust as needed */
         z-index: 3;
         border-style: solid;
         border-color: black;
@@ -404,10 +404,10 @@
     
     #box2 {
         position: absolute;
-        width:220px;
-        height: 220px;
-        top: 550px; 
-        right: 925px; /* Adjust as needed */
+        width:300px;
+        height: 300px;
+        top: 500px; 
+        right: 870px; /* Adjust as needed */
         z-index: 3;
         border-style: solid;
         border-color: black;
@@ -417,10 +417,10 @@
     
     #box3 {
         position: absolute;
-        top: 550px; /* Adjust as needed */
-        right: 575px;
-        width:220px;
-        height: 220px;
+        top: 500px; /* Adjust as needed */
+        right: 490px;
+        width:300px;
+        height: 300px;
         z-index: 3;
         border-style: solid;
         border-color: black;
@@ -429,10 +429,10 @@
     
     #box4 {
         position: absolute;
-        top: 550px; 
-        right: 230px;
-        width:220px;
-        height: 220px;
+        top: 500px; 
+        right: 115px;
+        width:300px;
+        height: 300px;
         z-index: 3;
         border-style: solid;
         border-color: black;
@@ -578,7 +578,7 @@
     }
     #textfour{
         top: 50px;
-        left: 25px;
+        left: 0px;
     }
     #textfive{
         top: 50px;
